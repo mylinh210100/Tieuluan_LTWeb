@@ -1,0 +1,14 @@
+﻿@model Model.Model.Phim
+@{
+    ViewBag.Title = "XemPhim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h3>@Model.TenPhim</h3>
+    <video controls autoplay="autoplay">
+        <source  src="@Model.Link" type="video/ogg" />
+    </video>
+    <a class="btn" style="border-color:#971515" href="/">back</a>
+</div>
+

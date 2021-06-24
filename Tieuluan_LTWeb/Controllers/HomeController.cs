@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataIO.EF;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,8 +11,14 @@ namespace Tieuluan_LTWeb.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var list = new Phimcode().ListPhim();
+            return View(list);
         }
-
+ 
+        public ActionResult XemPhim(int id)
+        {
+            var link = new Phimcode().VideoPhim(id);
+            return View(link);
+        }
     }
 }

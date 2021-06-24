@@ -14,6 +14,13 @@ namespace Tieuluan_LTWeb
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "Xem Phim",
+                url: "xem-phim/{id}",
+                defaults: new { controller = "Home", action = "XemPhim", id = UrlParameter.Optional }
+            );
+
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

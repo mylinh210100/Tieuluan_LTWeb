@@ -77,3 +77,13 @@ C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\obj\Debug\Tieuluan_LTWe
 C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\obj\Debug\Tieuluan_LTWeb.csproj.CopyComplete
 C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\obj\Debug\Tieuluan_LTWeb.dll
 C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\obj\Debug\Tieuluan_LTWeb.pdb
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\DataIO.dll
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\EntityFramework.dll
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\Model.dll
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\DataIO.pdb
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\DataIO.dll.config
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\Model.pdb
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\Model.dll.config
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\EntityFramework.xml
+C:\Users\ACER\source\repos\Tieuluan_LTWeb\Tieuluan_LTWeb\bin\EntityFramework.SqlServer.xml

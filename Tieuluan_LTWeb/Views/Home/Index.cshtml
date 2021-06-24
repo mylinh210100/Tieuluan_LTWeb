@@ -1,8 +1,26 @@
-﻿
+﻿@model IEnumerable<Model.Model.Phim>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
-<h2>Index</h2>
+@foreach (var item in Model)
+{
+    <div style="margin-top: 10px;">
+        <a>
+            <img src="@item.Anh" />
+        </a>
+        <h3>
+            @item.TenPhim
+        </h3>
+        <p>
+            @item.MoTa
+        </p>
+        <a class="btn" style="border-color:#ff0000" href="/xem-phim/@item.idPhim">
+            Xem phim
+        </a>
+    </div>
+}
+
 

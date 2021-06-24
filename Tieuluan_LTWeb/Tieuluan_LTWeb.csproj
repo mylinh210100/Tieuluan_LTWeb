@@ -139,6 +139,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\emhoRachel.png" />
+    <Content Include="Content\images\phim2.jpg" />
+    <Content Include="Content\images\phim3.jpg" />
+    <Content Include="Content\images\phim4.jpg" />
+    <Content Include="Content\images\phim5.jpg" />
+    <Content Include="Content\images\phim6.jpg" />
+    <Content Include="Content\images\phim7.jpg" />
+    <Content Include="Content\images\phim8.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -168,6 +176,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\XemPhim.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -175,6 +184,7 @@
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Phim\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
