@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tieuluan_LTWeb", "Tieuluan_LTWeb\Tieuluan_LTWeb.csproj", "{6592D414-650F-4E6A-BB59-908FF4EBC379}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{6C1D533D-BD4F-4A85-B869-5717A3BF24C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataIO", "DataIO\DataIO.csproj", "{8FBD9357-BD12-4B73-95D9-E55D7693C08E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6592D414-650F-4E6A-BB59-908FF4EBC379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6592D414-650F-4E6A-BB59-908FF4EBC379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6592D414-650F-4E6A-BB59-908FF4EBC379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1D533D-BD4F-4A85-B869-5717A3BF24C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1D533D-BD4F-4A85-B869-5717A3BF24C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1D533D-BD4F-4A85-B869-5717A3BF24C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1D533D-BD4F-4A85-B869-5717A3BF24C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBD9357-BD12-4B73-95D9-E55D7693C08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBD9357-BD12-4B73-95D9-E55D7693C08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBD9357-BD12-4B73-95D9-E55D7693C08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBD9357-BD12-4B73-95D9-E55D7693C08E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
