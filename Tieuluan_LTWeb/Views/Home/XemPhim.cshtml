@@ -4,6 +4,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 
     var cmt = (IEnumerable<Model.Model.BinhLuan>)ViewBag.Binhluan;
+
+    var sslogin = Session["login"] as Tieuluan_LTWeb.Models.SessionLogin;
 }
 <link href="~/Content/css/xemphim.css" rel="stylesheet" />
 <div class="container xem-phim">
@@ -18,6 +20,7 @@
     -->
 </div>
 <div class="binh-luan">
+
     <div style="margin: 10px;">
         <h2>Binh luan: </h2>
         @foreach (var item in cmt)
@@ -27,5 +30,30 @@
         }
 
     </div>
+    <div>
+        <h3>Viet binh luan:</h3>
+    </div>
+    @if (sslogin == null)
+    {
+        <div>
+            <input type="text" name="noidung" />
+            <a class="btn" style="border-color: #0094ff" href="/log-in">Dang </a>
+        </div>
+
+    }
+    else if (sslogin != null)
+    {
+        using (Html.BeginForm("VietBinhluan", "Binhluan"))
+        {
+            <div>
+                <input type="hidden" name="idPhim" value="@Model.idPhim" />
+                <input type="hidden" name="taikhoan" value="@sslogin.name" />
+                <input type="text" name="noidung" />
+                <br />
+                <button type="submit" class="btn" style="border-color: #0094ff">Dang</button>
+            </div>
+        }
+
+    }
 </div>
 

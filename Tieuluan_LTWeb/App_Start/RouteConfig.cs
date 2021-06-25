@@ -13,6 +13,15 @@ namespace Tieuluan_LTWeb
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            // Dang nhap
+            routes.MapRoute(
+                name: "Dang Nhap",
+                url: "log-in",
+                defaults: new { controller = "Login", action = "Login", id = UrlParameter.Optional }
+            );
+
+
+            // Xem Phim
             routes.MapRoute(
                 name: "Xem Phim",
                 url: "xem-phim/{id}",

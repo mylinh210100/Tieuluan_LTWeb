@@ -32,7 +32,7 @@
                         <div class="d-flex justify-content-end">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="/">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Movies</a>
@@ -43,6 +43,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">News</a>
                                 </li>
+                                @{ Html.RenderAction("MenuLogin", "Home");}
+
                             </ul>
                         </div>
                     </div>

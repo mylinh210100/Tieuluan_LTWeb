@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="EF\BinhluanCode.cs" />
     <Compile Include="EF\Phimcode.cs" />
+    <Compile Include="EF\UserCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

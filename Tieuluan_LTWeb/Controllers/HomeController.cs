@@ -22,6 +22,10 @@ namespace Tieuluan_LTWeb.Controllers
             return View(link);
         }
 
+        public ActionResult MenuLogin()
+        {
+            return PartialView("MenuLogin");
+        }
 
     }
 }

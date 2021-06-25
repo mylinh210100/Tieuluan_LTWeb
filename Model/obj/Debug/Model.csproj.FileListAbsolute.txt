@@ -9,4 +9,3 @@ C:\Users\ACER\source\repos\Tieuluan_LTWeb\Model\obj\Debug\Model.csproj.CoreCompi
 C:\Users\ACER\source\repos\Tieuluan_LTWeb\Model\obj\Debug\Model.csproj.CopyComplete
 C:\Users\ACER\source\repos\Tieuluan_LTWeb\Model\obj\Debug\Model.dll
 C:\Users\ACER\source\repos\Tieuluan_LTWeb\Model\obj\Debug\Model.pdb
-C:\Users\ACER\source\repos\Tieuluan_LTWeb\Model\obj\Debug\Model.csproj.AssemblyReference.cache
