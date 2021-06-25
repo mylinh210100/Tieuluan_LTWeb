@@ -5,24 +5,27 @@
 
     var cmt = (IEnumerable<Model.Model.BinhLuan>)ViewBag.Binhluan;
 }
-
-<div class="container">
+<link href="~/Content/css/xemphim.css" rel="stylesheet" />
+<div class="container xem-phim">
     <h3>@Model.TenPhim</h3>
-    <video controls autoplay="autoplay">
-        <source  src="@Model.Link" type="video/ogg" />
-    </video>
-    <div>
-        <a class="btn" style="border-color:#971515" href="/">back</a>
-    </div>
-    
-</div>
-<div style="margin: 10px;">
-    <h2>Binh luan: </h2>
-    @foreach (var item in cmt)
-    {
-        <h4>@item.TenTaiKhoan</h4>
-        <p>@item.NoiDung</p>
-    }
 
+    <iframe class="phim-video" src="@Model.Link?autoplay=1"
+            title="YouTube video player" frameborder="0" allow="accelerometer;
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen allow='autoplay'></iframe>
+    <!--
+        <a class="btn" style="border-color:#971515" href="/">back</a>
+    -->
+</div>
+<div class="binh-luan">
+    <div style="margin: 10px;">
+        <h2>Binh luan: </h2>
+        @foreach (var item in cmt)
+        {
+            <h4>@item.TenTaiKhoan</h4>
+            <p>@item.NoiDung</p>
+        }
+
+    </div>
 </div>
 

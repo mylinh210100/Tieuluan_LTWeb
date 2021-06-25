@@ -139,6 +139,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\film.css" />
+    <Content Include="Content\css\layout.css" />
+    <Content Include="Content\css\xemphim.css" />
     <Content Include="Content\images\emhoRachel.png" />
     <Content Include="Content\images\phim2.jpg" />
     <Content Include="Content\images\phim3.jpg" />

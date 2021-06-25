@@ -4,22 +4,29 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 
 }
+<link href="~/Content/css/film.css" rel="stylesheet" />
 
 @foreach (var item in Model)
 {
-    <div style="margin-top: 10px;">
-        <a>
-            <img src="@item.Anh" />
-        </a>
-        <h3>
-            @item.TenPhim
-        </h3>
-        <p>
-            @item.MoTa
-        </p>
-        <a class="btn" style="border-color:#ff0000" href="/xem-phim/@item.idPhim">
-            Xem phim
-        </a>
+    <div class="col-md-3 mt-5 mb-2 phim-item">
+        <div class="phim-img">
+            <img class="hinh-anh" src="@item.Anh" />
+            <div class="phim__overlay"></div>
+            <div class="phim__mota text-white">
+                <p class="mo-ta">
+                    @item.MoTa
+                </p>
+            </div>
+        </div>
+        <div class="phim-content">
+            <h3 class="ten-phim">
+                @item.TenPhim
+            </h3>
+            <a class="btn btn-xem" href="/xem-phim/@item.idPhim">
+                Xem phim
+            </a>
+        </div>
+
     </div>
 }
 
