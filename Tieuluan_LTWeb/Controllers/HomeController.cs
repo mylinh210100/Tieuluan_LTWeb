@@ -18,7 +18,10 @@ namespace Tieuluan_LTWeb.Controllers
         public ActionResult XemPhim(int id)
         {
             var link = new Phimcode().VideoPhim(id);
+            ViewBag.Binhluan = new BinhluanCode().ViewBinhLuan(id);
             return View(link);
         }
+
+
     }
 }

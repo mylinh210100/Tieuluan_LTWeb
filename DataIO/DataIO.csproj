@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EF\BinhluanCode.cs" />
     <Compile Include="EF\Phimcode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
