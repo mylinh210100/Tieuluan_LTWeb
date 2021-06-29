@@ -32,10 +32,10 @@
                         <div class="d-flex justify-content-end">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="/Home/Index">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Movies</a>
+                                    <a class="nav-link" href="/Home/Index">Movies</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Trending</a>
@@ -43,9 +43,24 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">News</a>
                                 </li>
+                                @if (HttpContext.Current.Session["admin"] != null)
+                                {
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Phim/Index">Quan ly phim</a>
+                                    </li>
+}
                             </ul>
                         </div>
                     </div>
+                    @if (HttpContext.Current.Session["user"] != null)
+                    {
+                        <b style="color:aliceblue">Xin chao, @HttpContext.Current.Session["user"].ToString() !</b><a class="nav-link" href="/Home/DangXuat">Dang xuat</a>
+            }
+            else
+            {
+                <a class="nav-link" href="/Home/DangNhap">Dang nhap</a>
+            }
                 </div>
             </nav>
         </div>
